@@ -1,0 +1,16 @@
+SELECT * FROM INFORMATION_SCHEMA.ROUTINES
+WHERE ROUTINE_TYPE = N'PROCEDURE' --and ROUTINE_SCHEMA = N'vmr' 
+and SPECIFIC_NAME='Pr_Fetch_Customer_Master_Details'
+order by  LAST_ALTERED desc
+
+
+
+
+
+
+
+
+EUT remove in req form
+save-->Submit 
+
+not applicable in dropdown in engg approval
